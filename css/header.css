@@ -4,8 +4,5 @@ header {
     align-items: center;
     justify-content: center;
 
-    height: auto;
-    width: 100%;
-
-    background-image: url("/imgs/Pokemon-BG.jpg");
+    background-image: url("imgs/Pokemon-BG.jpg");
 }
