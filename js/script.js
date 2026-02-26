@@ -45,7 +45,7 @@ async function CarregarCardPokemon() {
                         <div class="card-body" style="background-color: ${typeColors[pokemonData.types[0].type.name] || '#f8f9fa'}; 
                           width: 200px; opacity: 0.75; font-weight: bold; color: black; font-size: 0.9rem;">
                             <h5 class="card-title">${pokemon.name.toUpperCase()}</h5>
-                            <p class="card-text">Index: ${pokemon.url.split("/")[6]}</p>
+                            <p class="card-text">Num. Pokédex: ${pokemon.url.split("/")[6]}</p>
                             <p class="card-text"> Tipos: ${pokemonData.types.map(type => `<span style="background-color:
                                 ${typeColors[type.type.name] || '#f8f9fa'}; color: white; padding: 2px 4px; border-radius: 4px;">
                                 ${type.type.name}</span>`).join(", ")}</p> 

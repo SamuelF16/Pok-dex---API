@@ -3,18 +3,19 @@
 @import "main.css";
 @import "footer.css";
 
-html, body {
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
 
-    width: 100%;
-
+html, body {
     color: white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .img-fluid {
-    width: 25vh;
+    width: 22vh;
     height: 25vh;
     object-fit: cover;
 }

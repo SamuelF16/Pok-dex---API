@@ -5,41 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PokeDéx</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="icon" type="image/png" href="imgs/">
+    <link rel="icon" type="image/png" href="imgs/PokeDex-icon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container mt-5">
-        <header>
+    <header>
+        <div class="container mt-5">
             <div class="placeholderIMG">
-                <img class="TitlePoke" src="imgs/Pokédex_3D_logo.png" alt="PokéDex">
-                <img class="Pokeball" src="imgs/CherBall.png" alt="Pokeball">
+                <img src="imgs/Pokédex_3D_logo.png" alt="PokéDex">
+                <img src="imgs/CherBall.png" alt="Pokeball">
             </div>
-        </header>
-        <nav>
-            <div class="container text-center">
-                <h1 class="mt-4">Buscar um Pokemon</h1>
-                <input type="text" id="txt-busca" class="form-control mb-3" placeholder="Quem é esse pokemon?">
-            </div>
-        </nav>
-        <main>
-            <div class="container" style="margin-top: 10vh;">
-                <table>
-                    <tr>
-                        <td>
-                            <div class="d-flex flex-wrap gap-3" id="lista-pokedex">
-                                <!--Os cards são criados aqui-->
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </main>
-        <footer>
+        </div>
+    </header>
+    <nav>
+        <div class="container text-center">
+            <h1 class="mt-4">Buscar um Pokemon</h1>
+            <input type="text" id="txt-busca" class="form-control mb-3" placeholder="Quem é esse pokemon?">
+        </div>
+    </nav>
+    <main>
+        <div class="container" style="margin-top: 10vh;">
+            <table>
+                <tr>
+                    <td>
+                        <div class="d-flex flex-wrap gap-3" id="lista-pokedex">
+                            <!--Os cards são criados aqui-->
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
 
-        </footer>
-
-    </div>
+    </footer>
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

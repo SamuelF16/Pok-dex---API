@@ -1,8 +1,17 @@
 header {
     display: flex;
-    flex-direction: column;
+
+    background-image: url("../imgs/PokeDex\ -\ BG.png");
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    background-size: cover; 
+}
+
+.placeholderIMG {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-
-    background-image: url("imgs/Pokemon-BG.jpg");
 }
