@@ -1,0 +1,18 @@
+@import "header.css";
+@import "nav.css";
+@import "main.css";
+@import "footer.css";
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-fluid {
+    width: 25vh;
+    height: 25vh;
+    object-fit: cover;
+}
